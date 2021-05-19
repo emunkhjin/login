@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
   const username = loginForm.username.value;
   const password = loginForm.password.value;
 
-  if (username === "admin" && password === "admin") {
+  if (username === "admin" && password === "p@ssw0rd") {
     alert("Амжилттай нэвтэрлээ");
     window.location.replace("amjilttaiKKK.html");
   } else {
